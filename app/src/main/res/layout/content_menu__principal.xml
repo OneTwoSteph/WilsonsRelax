@@ -43,8 +43,7 @@
         android:layout_height="wrap_content"
         android:text="Música"
         android:id="@+id/button_musica"
-        android:layout_marginTop="33dp"
-        android:layout_below="@+id/button_relaxamento"
+        android:layout_centerVertical="true"
         android:layout_alignStart="@+id/button_relaxamento" />
 
     <Button
