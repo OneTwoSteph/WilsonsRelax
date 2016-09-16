@@ -3,4 +3,6 @@
     <string name="action_settings">Settings</string>
     <string name="title_activity_respiracao">Respiracao</string>
     <string name="title_activity_relaxamento">Relaxamento</string>
+    <string name="title_activity_musica">Musica</string>
+    <string name="title_activity_posicoes">Posicoes</string>
 </resources>
