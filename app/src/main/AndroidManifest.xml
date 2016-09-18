@@ -12,10 +12,16 @@
         <activity
             android:name=".Menu_Principal"
             android:label="@string/title_activity_menu__principal"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".Respiracao"
-            android:label="@string/title_activity_respiracao"
+            android:label="Respiracao"
             android:parentActivityName=".Menu_Principal"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
@@ -43,6 +49,15 @@
         <activity
             android:name=".Posicoes"
             android:label="@string/title_activity_posicoes"
+            android:parentActivityName=".Menu_Principal"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.nbacademy.wilsonsrelax.Menu_Principal" />
+        </activity>
+        <activity
+            android:name=".respiracao1"
+            android:label="@string/title_activity_respiracao1"
             android:parentActivityName=".Menu_Principal"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
