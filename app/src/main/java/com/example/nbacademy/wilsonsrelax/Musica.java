@@ -14,7 +14,11 @@ public class Musica extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_musica);
         /*Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+<<<<<<< HEAD
         /setSupportActionBar(toolbar);
+=======
+        setSupportActionBar(toolbar);
+>>>>>>> be60d5e16c348e3784c9af6714f71320516b46d2
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
@@ -23,8 +27,13 @@ public class Musica extends AppCompatActivity {
                 Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
+<<<<<<< HEAD
         });
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);*/
+=======
+        });*/
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+>>>>>>> be60d5e16c348e3784c9af6714f71320516b46d2
     }
 
 }

@@ -23,8 +23,13 @@ public class Posicoes extends AppCompatActivity {
                 Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
+<<<<<<< HEAD
         });
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);*/
+=======
+        });*/
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+>>>>>>> be60d5e16c348e3784c9af6714f71320516b46d2
     }
 
 }

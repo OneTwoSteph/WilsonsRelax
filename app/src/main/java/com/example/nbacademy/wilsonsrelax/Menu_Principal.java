@@ -18,20 +18,31 @@ public class Menu_Principal extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu__principal);
+<<<<<<< HEAD
         //Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         //setSupportActionBar(toolbar);
         /*
+=======
+        /*Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+
+>>>>>>> be60d5e16c348e3784c9af6714f71320516b46d2
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
+<<<<<<< HEAD
             }
         });
         */
         //Action Listener Botão Respiração
         Button resp = (Button) findViewById(R.id.button10);
+=======
+        });}*/
+    }
+>>>>>>> be60d5e16c348e3784c9af6714f71320516b46d2
 
         resp.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
