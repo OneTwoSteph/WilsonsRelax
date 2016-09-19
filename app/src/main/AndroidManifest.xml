@@ -8,11 +8,13 @@
         android:icon="@mipmap/ic_launcher"
         android:label="Wilson"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        android:theme="@style/AppTheme"
+        android:screenOrientation="portrait">
+
         <activity
             android:name=".Menu_Principal"
-            android:label="Wilson\'s Relax"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
@@ -22,7 +24,8 @@
             android:name=".Respiracao"
             android:label="Respiracao"
             android:parentActivityName=".Menu_Principal"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.nbacademy.wilsonsrelax.Menu_Principal" />
@@ -31,7 +34,8 @@
             android:name=".Relaxamento"
             android:label="@string/title_activity_relaxamento"
             android:parentActivityName=".Menu_Principal"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.nbacademy.wilsonsrelax.Menu_Principal" />
@@ -40,7 +44,8 @@
             android:name=".Musica"
             android:label="@string/title_activity_musica"
             android:parentActivityName=".Menu_Principal"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.nbacademy.wilsonsrelax.Menu_Principal" />
@@ -49,7 +54,8 @@
             android:name=".Posicoes"
             android:label="@string/title_activity_posicoes"
             android:parentActivityName=".Menu_Principal"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.nbacademy.wilsonsrelax.Menu_Principal" />
@@ -58,7 +64,8 @@
             android:name=".respiracao1"
             android:label="@string/title_activity_respiracao1"
             android:parentActivityName=".Menu_Principal"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.nbacademy.wilsonsrelax.Menu_Principal" />
