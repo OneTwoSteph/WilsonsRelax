@@ -26,10 +26,6 @@ public class Relaxamento extends AppCompatActivity {
 <<<<<<< HEAD
         });
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);*/
-=======
-        });*/
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
->>>>>>> be60d5e16c348e3784c9af6714f71320516b46d2
-    }
 
+    }
 }

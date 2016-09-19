@@ -14,11 +14,10 @@ public class Menu_Principal extends AppCompatActivity {
 
 
 
-    //@Override
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu__principal);
-<<<<<<< HEAD
         //Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         //setSupportActionBar(toolbar);
         /*
@@ -39,10 +38,6 @@ public class Menu_Principal extends AppCompatActivity {
         */
         //Action Listener Botão Respiração
         Button resp = (Button) findViewById(R.id.button10);
-=======
-        });}*/
-    }
->>>>>>> be60d5e16c348e3784c9af6714f71320516b46d2
 
         resp.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
