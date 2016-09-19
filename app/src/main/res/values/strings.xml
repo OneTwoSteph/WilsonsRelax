@@ -7,4 +7,13 @@
     <string name="title_activity_posicoes">Posicoes</string>
     <string name="title_activity_menu__principal">Menu_Principal</string>
     <string name="title_activity_respiracao1">respiracao1</string>
+    <string name="title_activity_posicoes1">posicoes1</string>
+    <string name="title_activity_relaxamento2">relaxamento2</string>
+    <string name="title_activity_respiracao2">respiracao2</string>
+    <string name="title_activity_respiracao3">respiracao3</string>
+    <string name="title_activity_respiracao4">respiracao4</string>
+    <string name="title_activity_respiracao5">respiracao5</string>
+    <string name="title_activity_respiracao6">respiracao6</string>
+    <string name="title_activity_respiracao7">respiracao7</string>
+    <string name="title_activity_respiracao8">respiracao8</string>
 </resources>

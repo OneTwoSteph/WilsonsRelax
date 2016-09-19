@@ -64,6 +64,82 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.nbacademy.wilsonsrelax.Menu_Principal" />
         </activity>
+        <activity
+            android:name=".posicoes1"
+            android:label="@string/title_activity_posicoes1"
+            android:parentActivityName=".Menu_Principal"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.nbacademy.wilsonsrelax.Menu_Principal" />
+        </activity>
+        <activity
+            android:name=".relaxamento2"
+            android:label="@string/title_activity_relaxamento2"
+            android:parentActivityName=".Menu_Principal"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.nbacademy.wilsonsrelax.Menu_Principal" />
+        </activity>
+        <activity
+            android:name=".respiracao2"
+            android:label="@string/title_activity_respiracao2"
+            android:parentActivityName=".Menu_Principal"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.nbacademy.wilsonsrelax.Menu_Principal" />
+        </activity>
+        <activity
+            android:name=".respiracao3"
+            android:label="@string/title_activity_respiracao3"
+            android:parentActivityName=".Menu_Principal"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.nbacademy.wilsonsrelax.Menu_Principal" />
+        </activity>
+        <activity
+            android:name=".respiracao4"
+            android:label="@string/title_activity_respiracao4"
+            android:parentActivityName=".Menu_Principal"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.nbacademy.wilsonsrelax.Menu_Principal" />
+        </activity>
+        <activity
+            android:name=".respiracao5"
+            android:label="@string/title_activity_respiracao5"
+            android:parentActivityName=".Menu_Principal"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.nbacademy.wilsonsrelax.Menu_Principal" />
+        </activity>
+        <activity
+            android:name=".respiracao6"
+            android:label="@string/title_activity_respiracao6"
+            android:parentActivityName=".Menu_Principal"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.nbacademy.wilsonsrelax.Menu_Principal" />
+        </activity>
+        <activity
+            android:name=".respiracao7"
+            android:label="@string/title_activity_respiracao7"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".respiracao8"
+            android:label="@string/title_activity_respiracao8"
+            android:parentActivityName=".Menu_Principal"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.nbacademy.wilsonsrelax.Menu_Principal" />
+        </activity>
     </application>
 
 </manifest>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.nbacademy.wilsonsrelax.posicoes1"
+    tools:showIn="@layout/activity_posicoes1"
+    android:background="@drawable/background">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:src="@drawable/tree"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="1. Start standing up with the arms besides the body, bend the right knee shifting all the weight into the left leg. Turn the right knee to the right wall resting the heel against the left leg. 2. Look down at the floor and stare at one point. Slowly slide the right foot up the left leg, only as high up as you can maintain your balance. When you are balanced here, slowly bring the palms together, prayer position in front of the heart. 3. Keep staring at your focal point on the floor. Keep the left leg strong pressing the foot into the floor. Keep the right knee bent 90 degrees towards the side wall. The shoulders are down and back and the chest is pressing forward. 4. If you are very balanced here, try the next stage by inhaling the arms over the head. The arms are in an H position, or the palms are together with the thumbs crossed, or the fingers are interlaced with the index finger pointed up. The fingers are reaching up and the shoulders are down and back. 5. Breathe and hold for 4-8 breaths. 6. To release: slowly exhale the arms down and then release the legs back into mountain. 7. Repeat on the other side "
+        android:id="@+id/textView5"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>
