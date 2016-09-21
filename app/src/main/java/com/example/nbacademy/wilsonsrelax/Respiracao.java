@@ -35,6 +35,7 @@ public class Respiracao extends AppCompatActivity {
 
         resp2.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
+<<<<<<< HEAD
                 startActivity(new Intent(Respiracao.this, respiracao2.class));
                 //this
             }
@@ -103,6 +104,9 @@ public class Respiracao extends AppCompatActivity {
             public void onClick(View v) {
                 startActivity(new Intent(Respiracao.this, respiracao8.class));
                 //this
+=======
+                startActivity(new Intent(Respiracao.this, respiracao1.class));
+>>>>>>> 67281109771b9ca5fb37fc98ec9bdbf517746e0e
             }
 
         });
